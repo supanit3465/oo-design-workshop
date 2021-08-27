@@ -1,5 +1,7 @@
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 public class HelloWorldTest {
     @Test
     public void hello () {
@@ -7,6 +9,6 @@ public class HelloWorldTest {
 
         String actualResult = HelloWorld.greeting("oil");
 
-        assertEquals("Hello", actualResult);
+        assertEquals("oil", actualResult);
     }
 }
